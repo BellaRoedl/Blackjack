@@ -9,15 +9,15 @@ Dieses Praktikumsprojekt Blackjack wurde im Kontext des Praktikums „XML-Techno
 
 ## Anleitung zu BaseX:
 
- 1.1 Öffnen Sie das "baseX"- Verzeichnis und navigieren Sie in den "webapp"-Ordner (baseX/webapp/). Fügen Sie hier den Ordner SingleClientFinalCSS/GroupBaseXblackjack ein.
+1. Öffnen Sie das "baseX"- Verzeichnis und navigieren Sie in den "webapp"-Ordner (baseX/webapp/). Fügen Sie hier den Ordner SingleClientFinalCSS/GroupBaseXblackjack ein.
  
- 1.2 Im untergeordneten baseX- Ordner static (baseX/webapp/static) muss außerdem der Ordner
+2. Im untergeordneten baseX- Ordner static (baseX/webapp/static) muss außerdem der Ordner
 aus dem Filepath SingleClientFinalCSS/static/GroupBaseXblackjack eingefügt werden.
 
-2. Um den BaseX Server „baseXhttp“ zu starten, navigieren Sie in den Ordner baseX/bin/ und führen Sie die baseXhttp Datei durch Doppelklick aus.
+3. Um den BaseX Server „baseXhttp“ zu starten, navigieren Sie in den Ordner baseX/bin/ und führen Sie die baseXhttp Datei durch Doppelklick aus.
 
-3. Um die Browseranwendung aufrufen zu können, rufen Sie in einem beliebigen Browser (Chrome oder Firefox) den Link „http://127.0.0.1:8984/GroupBaseX/setup“ auf. 
+4. Um die Browseranwendung aufrufen zu können, rufen Sie in einem beliebigen Browser (Chrome oder Firefox) den Link „http://127.0.0.1:8984/GroupBaseX/setup“ auf. 
 
-4. Sie befinden sich nun in der Startlobby der Browseranwendung und das Blackjack Spiel kann beginnen.
+5. Sie befinden sich nun in der Startlobby der Browseranwendung und das Blackjack Spiel kann beginnen.
 
-5. Unter HELP --> TUTORIAL finden Sie ein ausführliches Tutorial, welches Sie Schritt für Schritt durch das Spiel führt.
+6. Unter HELP --> TUTORIAL finden Sie ein ausführliches Tutorial, welches Sie Schritt für Schritt durch das Spiel führt.
