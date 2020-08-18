@@ -9,9 +9,9 @@ Dieses Praktikumsprojekt Blackjack wurde im Kontext des Praktikums „XML-Techno
 
 ## Anleitung zu BaseX:
 
-1.1 Öffnen Sie das "baseX"- Verzeichnis und navigieren Sie in den "webapp"-Ordner (baseX/webapp/). Fügen Sie hier den Ordner SingleClientFinalCSS/GroupBaseXblackjack ein.
+ 1.1 Öffnen Sie das "baseX"- Verzeichnis und navigieren Sie in den "webapp"-Ordner (baseX/webapp/). Fügen Sie hier den Ordner SingleClientFinalCSS/GroupBaseXblackjack ein.
  
-1.2 Im untergeordneten baseX- Ordner static (baseX/webapp/static) muss außerdem der Ordner
+ 1.2 Im untergeordneten baseX- Ordner static (baseX/webapp/static) muss außerdem der Ordner
 aus dem Filepath SingleClientFinalCSS/static/GroupBaseXblackjack eingefügt werden.
 
 2. Um den BaseX Server „baseXhttp“ zu starten, navigieren Sie in den Ordner baseX/bin/ und führen Sie die baseXhttp Datei durch Doppelklick aus.
