@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+        <!--DEFINITIONEN START -->
+        <!ENTITY StandardViewBox "0 0 120 120">
+
+        <!ENTITY PatternXY "0">
+        <!ENTITY PatternWidthHeight "2">
+        <!ENTITY PatternCXYR "1">
+
+
+        <!ENTITY Chip_Value "500">
+        <!ENTITY ChipCX "55">
+        <!ENTITY ChipCY "55">
+        <!ENTITY ChipR "50">
+        <!ENTITY ChipStroke "1">
+
+        <!ENTITY Chip1R "40">
+        <!ENTITY Chip2R "30">
+        <!ENTITY ChipStroke1 "3">
+
+        <!ENTITY TextMiddleX "30">
+        <!ENTITY TextMiddleY "67">
+        <!ENTITY StandardFontSize "30px">
+
+        <!ENTITY Color "orangered">
+
+        <!ENTITY Color2 "rgb(255, 234, 204)">
+        <!ENTITY XYUSECHIP "0">
+        ]>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" version="1.1" viewBox="&StandardViewBox;" preserveAspectRatio="xMinYMin">
+<defs>
+    <g id="Chip_500">
+
+        <defs>
+            <pattern id="Chip_Pattern500" x="&PatternXY;" y="&PatternXY;" width="&PatternWidthHeight;" height="&PatternWidthHeight;" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+                <circle id="pattern-circle" cx="&PatternCXYR;" cy="&PatternCXYR;" r="&PatternCXYR;" fill= "&Color;" />
+            </pattern>
+
+        </defs>
+
+        <circle  class="Chip" cx="&ChipCX;" cy="&ChipCX;" r="&ChipR;" fill="url(#Chip_Pattern500)"/>
+        <circle  class="Chip" cx="&ChipCX;" cy="&ChipCX;" r="&ChipR;" fill="none" stroke="black" stroke-width="&ChipStroke;"/>
+        <circle  class="Chip" cx="&ChipCX;" cy="&ChipCX;" r="&Chip1R;" fill="none" stroke="&Color2;" stroke-width="&ChipStroke1;"/>
+        <circle  class="Chip" cx="&ChipCX;" cy="&ChipCX;" r="&Chip2R;" fill="&Color2;" />
+
+        <text id="TextRightButtonSTAND" class="ButtonsPlayer" x="&TextMiddleX;" y="&TextMiddleY;" fill="&Color;" font-weight="bold" font-size="&StandardFontSize;" font-family="sans-serif">&Chip_Value;</text>
+
+
+    </g>
+</defs>
+
+    <use x="&XYUSECHIP;" y="&XYUSECHIP;" xlink:href="#Chip_500"/>
+
+
+</svg>

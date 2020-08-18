@@ -1,0 +1,25 @@
+<!ELEMENT BlackJack (Game, Game, Game, HighScore)>
+        <!ELEMENT Game (PlayerTurn, GamePhase, Characters)>
+        <!ATTLIST Game
+                id CDATA #REQUIRED
+                nbrPlayer CDATA #REQUIRED>
+        <!ELEMENT PlayerTurn (#PCDATA)>
+        <!ELEMENT GamePhase (#PCDATA)>
+        <!ELEMENT Characters (Player, Player, Player, Player, Player, Player, Player, Player)>
+        <!ELEMENT Player (CurrentBet|Score|Stock|Cards|Chips)*>
+        <!ATTLIST Player
+                id CDATA #IMPLIED
+                name CDATA #REQUIRED
+                online CDATA #IMPLIED
+                score CDATA #IMPLIED>
+        <!ELEMENT CurrentBet (#PCDATA)>
+        <!ELEMENT Score (#PCDATA)>
+        <!ELEMENT Stock (#PCDATA)>
+        <!ELEMENT Cards (Card)*>
+        <!ELEMENT Chips (Chip)*>
+        <!ELEMENT Card (Nbr,Sign,Value)*>
+        <!ELEMENT Nbr (#PCDATA)>
+        <!ELEMENT Sign (#PCDATA)>
+        <!ELEMENT Value (#PCDATA)>
+        <!ELEMENT Chip (Nbr)*>
+        <!ELEMENT HighScore (Player)*>

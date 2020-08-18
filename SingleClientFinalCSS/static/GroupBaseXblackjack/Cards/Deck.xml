@@ -1,0 +1,26 @@
+<!-- Diese Datei wird für das Erzeugen des Decks in BlackJack-helper.xqm benutzt.-->
+
+<Deck>
+    <Numbers>
+        <Nbr>A</Nbr>
+        <Nbr>2</Nbr>
+        <Nbr>3</Nbr>
+        <Nbr>4</Nbr>
+        <Nbr>5</Nbr>
+        <Nbr>6</Nbr>
+        <Nbr>7</Nbr>
+        <Nbr>8</Nbr>
+        <Nbr>9</Nbr>
+        <Nbr>10</Nbr>
+        <Nbr>J</Nbr>
+        <Nbr>Q</Nbr>
+        <Nbr>K</Nbr>
+    </Numbers>
+
+    <Signs>
+        <Sign>S</Sign>
+        <Sign>H</Sign>
+        <Sign>D</Sign>
+        <Sign>C</Sign>
+    </Signs>
+</Deck>

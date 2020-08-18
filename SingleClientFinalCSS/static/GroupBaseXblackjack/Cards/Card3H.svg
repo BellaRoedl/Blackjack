@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+        <!--DEFINITIONEN START -->
+        <!ENTITY StandardViewBox "0 0 2000 1000">
+
+        <!ENTITY StandardFontSize "37px">
+
+        <!ENTITY PathStartX "50">
+        <!ENTITY PathStartY "100">
+
+        <!ENTITY PathMid1X "2">
+        <!ENTITY PathMid1Y "70">
+
+        <!ENTITY PathMid2X "0">
+        <!ENTITY PathMid2Y "35">
+
+        <!ENTITY PathMid3X "100">
+        <!ENTITY PathMid3Y "35">
+
+        <!ENTITY PathMid4X "100">
+        <!ENTITY PathMid4Y "70">
+
+        <!ENTITY PathEndX "50">
+        <!ENTITY PathEndY "100">
+
+        <!ENTITY Circle1X "26">
+        <!ENTITY Circle2X "74">
+        <!ENTITY CircleY "35">
+        <!ENTITY CircleR "26">
+
+        <!ENTITY TransformHeart "(0.9 -0.9)">
+
+        <!ENTITY Path2StartX "40">
+        <!ENTITY Path2StartY "100">
+        <!ENTITY Path2MidX "50">
+        <!ENTITY Path2MidY "50">
+        <!ENTITY Path2EndX "60">
+        <!ENTITY Path2EndY "100">
+
+        <!ENTITY StartXYuse "0">
+
+        <!ENTITY HeartTransformX "5.6">
+        <!ENTITY HeartTransformY "-100">
+
+        <!ENTITY TransformHeart "(0.9 -0.9)">
+
+        <!ENTITY Path2StartX "40">
+        <!ENTITY Path2StartY "100">
+        <!ENTITY Path2MidX "50">
+        <!ENTITY Path2MidY "50">
+        <!ENTITY Path2EndX "60">
+        <!ENTITY Path2EndY "100">
+
+        <!ENTITY StartXYuse "0">
+        <!ENTITY StartXYuse1 "1">
+
+        <!ENTITY HeartTransformX "5.6">
+        <!ENTITY HeartTransformY "-100">
+
+
+        <!ENTITY PathStartXD "50">
+        <!ENTITY PathStartYD "0">
+        <!ENTITY PathMidXD "20">
+        <!ENTITY PathMidYD "50">
+        <!ENTITY PathMid1XD "50">
+        <!ENTITY PathMid1YD "100">
+        <!ENTITY PathEndXD "80">
+        <!ENTITY PathEndYD "50">
+
+        <!ENTITY CircleRC "25">
+
+        <!ENTITY Circle1XC "50">
+        <!ENTITY Circle1YC "25">
+
+
+        <!ENTITY Circle2XC "25">
+        <!ENTITY Circle2YC "60">
+
+
+        <!ENTITY Circle3XC "75">
+        <!ENTITY Circle3YC "60">
+
+        <!ENTITY Circle4XC "50">
+        <!ENTITY Circle4YC "60">
+        <!ENTITY Circle4RC "15">
+
+        <!ENTITY PathStartXC "40">
+        <!ENTITY PathStartYC "100">
+        <!ENTITY PathMidXC "50">
+        <!ENTITY PathMidYC "50">
+        <!ENTITY PathEndXC "60">
+        <!ENTITY PathEndYC "100">
+
+        <!--Basic_Card START -->
+        <!ENTITY Basic_CardX "10">
+        <!ENTITY Basic_CardY "10">
+        <!ENTITY Basic_CardRX "20">
+        <!ENTITY Basic_CardRY "20">
+        <!ENTITY Basic_CardWidth "250">
+        <!ENTITY Basic_CardHeight "400">
+        <!ENTITY Basic_CardStrokeWidth "4">
+        <!ENTITY Basic_CardViewBox "0 0 900 450">
+
+        <!ENTITY Basic_CardStart "0">
+
+        <!--TopRightText START -->
+        <!ENTITY TopRightTextX "35">
+        <!ENTITY TopRightTextY "47">
+        <!ENTITY TopRightText "3">
+
+        <!--SmallHeartTopRight START -->
+        <!ENTITY SmallHeartTopRightViewBox "0 0 3200 1600">
+        <!ENTITY SmallHeartTopRightStartX "75">
+        <!ENTITY SmallHeartTopRightStartY "180">
+
+
+        <!--TopRightRotate START -->
+        <!ENTITY TopRightRotateX "-270">
+        <!ENTITY TopRightRotateY "-415">
+        <!ENTITY TopRightRotateScale "(-1,-1)">
+
+
+
+        <!--Pattern START -->
+        <!ENTITY PatternViewBox "0 0 1400 700">
+        <!ENTITY PatternX1 "160">
+        <!ENTITY PatternY1 "45">
+        <!ENTITY PatternX2 "160">
+        <!ENTITY PatternY2 "160">
+        <!ENTITY PatternX3 "50">
+        <!ENTITY PatternY3 "160">
+        <!ENTITY PatternX4 "270">
+        <!ENTITY PatternY4 "160">
+
+
+        <!--PatternOdds START -->
+        <!ENTITY PatternOddsViewBox "0 0 1400 700">
+        <!ENTITY PatternOddsX1 "160">
+        <!ENTITY PatternOddsY1 "270">
+        <!ENTITY PatternOddsX2 "270">
+        <!ENTITY PatternOddsY2 "270">
+
+        <!--PatternRotate START -->
+        <!ENTITY PatternRotateX1 "-270">
+        <!ENTITY PatternRotateY1 "-415">
+
+        <!--hrefLink -->
+        <!ENTITY hrefLink "#heart_symbol_RED">
+        ]>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+
+    <defs>
+
+        <defs>
+            <g id="heart_symbol_RED">
+                <svg fill="firebrick">
+                    <path d="M&PathStartX; &PathStartY; C &PathStartX; &PathStartY; , &PathMid1X; &PathMid1Y; , &PathMid2X; &PathMid2Y; L &PathMid3X; &PathMid3Y; C &PathMid3X; &PathMid3Y;, &PathMid4X; &PathMid4Y;, &PathEndX; &PathEndY;"/>
+                    <circle cx="&Circle1X;" cy="&CircleY;" r="&CircleR;"/>
+                    <circle cx="&Circle2X;" cy="&CircleY;" r="&CircleR;"/>
+                </svg>
+            </g>
+        </defs>
+
+
+        <defs>
+            <g id="Clubs_Symbol">
+                <svg>
+                    <circle cx="&Circle1XC;" cy="&Circle1YC;" r="&CircleRC;"/>
+                    <circle cx="&Circle2XC;" cy="&Circle2YC;" r="&CircleRC;"/>
+                    <circle cx="&Circle3XC;" cy="&Circle3YC;" r="&CircleRC;"/>
+                    <circle cx="&Circle4XC;" cy="&Circle4YC;" r="&Circle4RC;"/>
+                    <path d="M &PathStartXC; &PathStartYC; L &PathMidXC; &PathMidYC; L &PathEndXC; &PathEndYC;"/>
+                </svg>
+            </g>
+        </defs>
+
+
+        <defs>
+            <g id="Diamond_Symbol">
+                <svg fill="firebrick">
+                    <path d="M&PathStartXD; &PathStartYD; L&PathMidXD; &PathMidYD; L&PathMid1XD; &PathMid1YD; L&PathEndXD; &PathEndYD; Z"/>
+                </svg>
+
+            </g>
+        </defs>
+
+
+        <defs>
+
+            <defs>
+                <g id="heart_symbol_BLACK">
+                    <svg>
+                        <path d="M&PathStartX; &PathStartY; C &PathStartX; &PathStartY; , &PathMid1X; &PathMid1Y; , &PathMid2X; &PathMid2Y; L &PathMid3X; &PathMid3Y; C &PathMid3X; &PathMid3Y;, &PathMid4X; &PathMid4Y;, &PathEndX; &PathEndY;"/>
+                        <circle cx="&Circle1X;" cy="&CircleY;" r="&CircleR;"/>
+                        <circle cx="&Circle2X;" cy="&CircleY;" r="&CircleR;"/>
+                    </svg>
+                </g>
+            </defs>
+
+
+            <g id="Spades_Symbol">
+                <svg>
+                    <use xlink:href="#heart_symbol_BLACK" x="&HeartTransformX;" y="&HeartTransformY;"
+                         transform="scale&TransformHeart;"/>
+                    <path d="M &Path2StartX; &Path2StartY; L &Path2MidX; &Path2MidY; L &Path2EndX; &Path2EndY;"/>
+
+                </svg>
+            </g>
+
+        </defs>
+
+
+        <defs>
+            <g id="Basic_Card">
+                <svg>
+                    <rect x="&Basic_CardX;" y="&Basic_CardY;" rx="&Basic_CardRX;" ry="&Basic_CardRY;" width="&Basic_CardWidth;" height="&Basic_CardHeight;" fill="white" stroke="black"
+                          stroke-width="&Basic_CardStrokeWidth;"/>
+                </svg>
+
+            </g>
+        </defs>
+
+
+    </defs>
+
+
+    <svg>
+        <svg viewBox="&Basic_CardViewBox;">
+
+            <use x="&Basic_CardStart;" y="&Basic_CardStart;" xlink:href="#Basic_Card"/>
+
+
+
+            <g id="TopRight">
+                <text x="&TopRightTextX;" y="&TopRightTextY;" text-anchor="middle" font-size="&StandardFontSize;" font-family="Arial"
+                      fill="firebrick">&TopRightText;
+                </text>
+
+                <svg viewBox="&SmallHeartTopRightViewBox;">
+                    <use x="&SmallHeartTopRightStartX;" y="&SmallHeartTopRightStartY;" xlink:href="&hrefLink;"/>
+                </svg>
+            </g>
+
+            <use x="&TopRightRotateX;" y="&TopRightRotateY;" xlink:href="#TopRight" transform="scale&TopRightRotateScale;"/>
+
+            <g id="Pattern">
+                <svg viewBox="&PatternViewBox;">
+
+                    <use x="&PatternX2;" y="&PatternY2;" xlink:href="&hrefLink;"/>
+
+                </svg>
+            </g>
+            <g id="PatternOdds">
+                <svg viewBox="&PatternOddsViewBox;">
+
+
+                    <use x="&PatternOddsX1;" y="&PatternOddsY1;" xlink:href="&hrefLink;"/>
+
+
+                </svg>
+            </g>
+
+            <use x="&PatternRotateX1;" y="&PatternRotateY1;" xlink:href="#Pattern" transform="scale&TopRightRotateScale;"/>
+        </svg>
+    </svg>
+</svg>

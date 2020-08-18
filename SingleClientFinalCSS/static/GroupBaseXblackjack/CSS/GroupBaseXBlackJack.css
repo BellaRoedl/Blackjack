@@ -1,0 +1,82 @@
+.orangeBackgroundStyle{
+  fill : rgb(177, 106, 18);
+}
+
+.whiteBorderBackgroundStyle{
+  fill : whitesmoke;
+}
+
+.greenBackgroundStyle{
+  fill : seagreen;
+}
+
+.whiteBorderBackgroundStyleTwo{
+  fill : white;
+}
+
+.buttonsPlayer{
+  font-size: 37px;
+  font-family: sans-serif;
+}
+
+.buttonsPlayerBold{
+  font-size: 37px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.displayingRec{
+  fill: darkgrey;
+}
+
+
+.displayingRecBold{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.middleBackgroundStyle{
+  fill: transparent;
+}
+
+.displayingRecNotBold{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.displayingRecButton{
+  fill: whitesmoke;
+  stroke-width: 5;
+  stroke: darkgrey;
+}
+
+.biggestBackgroundStyle{
+  fill: rgb(177, 106, 18)
+}
+
+.middleBackgroundStyleTwo{
+  fill: whitesmoke;
+}
+
+.displayingRecBlue{
+  fill: lightskyblue;
+}
+
+.displayingRecWhite{
+  fill: whitesmoke;
+}
+
+.displayingRecRed{
+  fill:salmon;
+  stroke-width: 5;
+  stroke:red;
+}
+
+.displayingRecDark{
+  fill:darksalmon;
+}
+
+.displayingRecGreen{
+  fill: palegreen;
+}
